@@ -72,4 +72,49 @@
 
 ---
 
-## 4. 仓库结构
+
+## 6. 如何使用
+
+1.  **克隆仓库**:
+    ```bash
+    git clone [您的仓库URL]
+    cd [您的仓库目录]
+    ```
+
+2.  **准备环境**:
+    建议使用 `conda` 创建一个独立的Python环境。
+    ```bash
+    conda create -n credit_risk python=3.9
+    conda activate credit_risk
+    ```
+
+3.  **安装依赖**:
+    ```bash
+    pip install pandas scikit-learn matplotlib seaborn jupyterlab
+    ```
+
+4.  **准备数据**:
+    - 从 [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club) 下载 `accepted_2007_to_2018q4.csv.gz` 文件。
+    - 解压后，将其中的 `accepted_2007_to_2018q4.csv` 文件放入 `data/` 文件夹。
+
+5.  **运行代码**:
+    - 启动 Jupyter Lab: `jupyter lab`
+    - 打开 `credit_scoring_model.ipynb` 并按顺序运行所有单元格。
+
+---
+
+## 6. 技术栈
+
+- **Python 3.9+**
+- **核心库**:
+    - Pandas: 数据处理与分析
+    - NumPy: 数值计算
+    - Scikit-learn: 模型训练与评估
+    - Matplotlib & Seaborn: 数据可视化
+- **环境**: Jupyter Lab
+
+---
+
+## 7. License
+
+本项目采用 [MIT License](LICENSE) 开源许可。
