@@ -63,11 +63,11 @@
 ### 关键可视化成果
 
 **ROC 曲线 (区分度与稳定性)**
-![Score Distribution](LendingClub/clipboard1277.png)
+![Score Distribution](LendingClub/逻辑回归模型/clipboard1277.png)
 *结论: 训练集与测试集曲线高度重合，AUC差异极小，模型稳定无过拟合。*
 
 **评分分布 (好坏客群分离度)**
-![Score Distribution](LendingClub/clipboard753.png)
+![Score Distribution](LendingClub/逻辑回归模型/clipboard753.png)
 *结论: 好客户（绿色）分数显著高于坏客户（红色），模型能有效区分不同风险的客群。*
 
 ---
